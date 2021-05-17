@@ -13,6 +13,7 @@
         <module>again-extends</module>
         <module>again-starters</module>
         <module>admin-api</module>
+        <module>again-common-modules</module>
     </modules>
 
     <name>try-again</name>
@@ -31,6 +32,7 @@
         <spring-boot.version>2.4.0</spring-boot.version>
         <org.mapstruct.version>1.4.1.Final</org.mapstruct.version>
         <spring-security-oauth2.version>2.3.8.RELEASE</spring-security-oauth2.version>
+        <grpc-lib-version>2.11.0.RELEASE</grpc-lib-version>
     </properties>
 
     <dependencies>
