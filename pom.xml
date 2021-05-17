@@ -1,16 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
-    <modelVersion>4.0.0</modelVersion>
     <groupId>com.example</groupId>
     <artifactId>try-again</artifactId>
-    <packaging>pom</packaging>
     <version>${revision}</version>
+
+    <modelVersion>4.0.0</modelVersion>
+    <packaging>pom</packaging>
+
     <modules>
         <module>again-dependencies</module>
         <module>again-extends</module>
         <module>again-starters</module>
+        <module>admin-api</module>
     </modules>
+
     <name>try-again</name>
 
     <properties>
@@ -26,6 +30,7 @@
         <flatten-maven-plugin.version>1.1.0</flatten-maven-plugin.version>
         <spring-boot.version>2.4.0</spring-boot.version>
         <org.mapstruct.version>1.4.1.Final</org.mapstruct.version>
+        <spring-security-oauth2.version>2.3.8.RELEASE</spring-security-oauth2.version>
     </properties>
 
     <dependencies>
