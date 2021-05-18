@@ -53,5 +53,9 @@
             <groupId>com.example</groupId>
             <artifactId>again-spring-boot-starter-elasticsearch</artifactId>
         </dependency>
+        <dependency>
+            <groupId>com.example</groupId>
+            <artifactId>again-spring-boot-starter-redis</artifactId>
+        </dependency>
     </dependencies>
 </project>

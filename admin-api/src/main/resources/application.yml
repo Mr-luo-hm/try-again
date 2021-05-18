@@ -5,7 +5,10 @@ spring:
     url: jdbc:mysql://192.168.1.126:3307/test?characterEncoding=utf8&serverTimezone=Asia/Shanghai&useSSL=false
     password: root
     username: root
-
+  redis:
+    host: scrm-bus-redis
+    password: ''
+    port: 6369
 mybatis-plus:
   mapper-locations: classpath*:/mapper/*Mapper.xml
   global-config:
@@ -31,3 +34,5 @@ again:
       cluster_name: scrm-es
       user_name:
       password:
+  redis:
+    key-prefix: 'wsn:bus:'

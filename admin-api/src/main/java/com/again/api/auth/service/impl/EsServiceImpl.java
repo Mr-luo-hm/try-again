@@ -91,6 +91,7 @@ public class EsServiceImpl implements EsService {
 			e.printStackTrace();
 		}
 		// 获取第一次得游标
+		assert searchResponse != null;
 		String scrollId = searchResponse.getScrollId();
 		// 处理命中文档
 		SearchHit[] searchHits = searchResponse.getHits().getHits();
