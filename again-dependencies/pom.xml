@@ -39,6 +39,11 @@
                 <artifactId>again-spring-boot-starts-datascope</artifactId>
                 <version>${revision}</version>
             </dependency>
+            <dependency>
+                <groupId>com.example</groupId>
+                <artifactId>again-spring-boot-starter-elasticsearch</artifactId>
+                <version>${revision}</version>
+            </dependency>
             <!--mybatis plus extension,包含了mybatis plus core-->
             <dependency>
                 <groupId>com.baomidou</groupId>

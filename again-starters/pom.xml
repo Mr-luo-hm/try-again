@@ -13,5 +13,6 @@
 
     <modules>
         <module>again-spring-boot-starts-datascope</module>
+        <module>again-spring-boot-starter-elasticsearch</module>
     </modules>
 </project>

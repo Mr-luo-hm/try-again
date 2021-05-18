@@ -49,5 +49,9 @@
             <groupId>com.example</groupId>
             <artifactId>again-spring-boot-starts-datascope</artifactId>
         </dependency>
+        <dependency>
+            <groupId>com.example</groupId>
+            <artifactId>again-spring-boot-starter-elasticsearch</artifactId>
+        </dependency>
     </dependencies>
 </project>
