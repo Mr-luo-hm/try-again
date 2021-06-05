@@ -29,8 +29,6 @@ again:
       tcp_port: 9400
       tcp_port1: 9500
       tcp_port2: 9600
-      index: wscrm_message
-      type: message
       cluster_name: scrm-es
       user_name:
       password:

@@ -13,6 +13,7 @@
     <packaging>pom</packaging>
     <modules>
         <module>again-grpc-lib</module>
+        <module>again-common-core</module>
     </modules>
 
 

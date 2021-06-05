@@ -14,6 +14,10 @@
         <spring-javaformat-checkstyle.version>0.0.25</spring-javaformat-checkstyle.version>
         <flatten-maven-plugin.version>1.1.0</flatten-maven-plugin.version>
 
+        <springfox.version>3.0.0</springfox.version>
+        <swagger.version>1.6.2</swagger.version>
+        <knife4j.version>3.0.1</knife4j.version>
+
         <mybatis-plus.version>3.4.0</mybatis-plus.version>
         <dynamic-datasource.version>3.2.0</dynamic-datasource.version>
         <hutool.version>5.4.1</hutool.version>
@@ -31,6 +35,11 @@
             <dependency>
                 <groupId>com.example</groupId>
                 <artifactId>again-extends-mybatis-plus-mysql</artifactId>
+                <version>${revision}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.example</groupId>
+                <artifactId>again-extends-kafka</artifactId>
                 <version>${revision}</version>
             </dependency>
             <!--starters-->
@@ -94,6 +103,36 @@
                 <artifactId>hutool-all</artifactId>
                 <version>${hutool.version}</version>
             </dependency>
+
+           <!-- swagger-->
+            <dependency>
+                <groupId>io.swagger</groupId>
+                <artifactId>swagger-annotations</artifactId>
+                <version>${swagger.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>io.swagger</groupId>
+                <artifactId>swagger-models</artifactId>
+                <version>${swagger.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>io.springfox</groupId>
+                <artifactId>springfox-swagger2</artifactId>
+                <version>${springfox.version}</version>
+            </dependency>
+            <!-- springfox swagger ui -->
+            <dependency>
+                <groupId>io.springfox</groupId>
+                <artifactId>springfox-swagger-ui</artifactId>
+                <version>${springfox.version}</version>
+            </dependency>
+            <!-- swagger 增强版 ui -->
+            <dependency>
+                <groupId>com.github.xiaoymin</groupId>
+                <artifactId>knife4j-spring-ui</artifactId>
+                <version>${knife4j.version}</version>
+            </dependency>
+
         </dependencies>
     </dependencyManagement>
 

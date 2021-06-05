@@ -60,7 +60,6 @@ public class EsServiceImpl implements EsService {
 		return true;
 	}
 
-
 	public void getFriendRecordByEsScroll(String INDEX) {
 		// 1、创建search请求
 		SearchRequest searchRequest = new SearchRequest(INDEX);
