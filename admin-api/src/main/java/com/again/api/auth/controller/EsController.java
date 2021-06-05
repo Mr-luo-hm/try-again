@@ -26,4 +26,9 @@ public class EsController {
 		}
 	}
 
+	@GetMapping("/test")
+	public String hello() {
+		return "hello";
+	}
+
 }
