@@ -60,6 +60,11 @@
             <groupId>org.apache.commons</groupId>
             <artifactId>commons-lang3</artifactId>
         </dependency>
+        <!--SpringBoot整合Pulsar-->
+        <dependency>
+            <groupId>io.github.majusko</groupId>
+            <artifactId>pulsar-java-spring-boot-starter</artifactId>
+        </dependency>
     </dependencies>
     <build>
         <plugins>

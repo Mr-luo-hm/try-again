@@ -132,7 +132,12 @@
                 <artifactId>knife4j-spring-ui</artifactId>
                 <version>${knife4j.version}</version>
             </dependency>
-
+           <!-- Pulsar-->
+            <dependency>
+                <groupId>io.github.majusko</groupId>
+                <artifactId>pulsar-java-spring-boot-starter</artifactId>
+                <version>1.0.4</version>
+            </dependency>
         </dependencies>
     </dependencyManagement>
 

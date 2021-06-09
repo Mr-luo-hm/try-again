@@ -34,3 +34,5 @@ again:
       password:
   redis:
     key-prefix: 'wsn:bus:'
+pulsar:
+  service-url: pulsar://192.168.1.228:6650
