@@ -1,4 +1,4 @@
-package com.again.api.auth.model.entity;
+package com.again.cloud.web.entity;
 
 import com.baomidou.mybatisplus.annotation.IdType;
 import com.baomidou.mybatisplus.annotation.TableId;
@@ -7,7 +7,6 @@ import lombok.Data;
 
 
 @Data
-
 @TableName("sys_user")
 public class SysUser {
 
