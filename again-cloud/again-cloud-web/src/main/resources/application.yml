@@ -13,3 +13,11 @@ eureka:
     prefer-ip-address: true #显示 ip
 server:
   port: 20003
+again:
+  socket:
+    netty:
+      leak_detector_level: DISABLED
+      boss_group_thread_count: 1
+      worker_group_thread_count: 12
+      max_payload_size: 65536
+      bind_port: 19999

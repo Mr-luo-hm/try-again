@@ -8,7 +8,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>again-cloud-dependencies</artifactId>
-
+    <description>统一依赖管理</description>
     <properties>
         <java.version>1.8</java.version>
         <revision>0.0.1-SNAPSHOT</revision>
@@ -140,6 +140,12 @@
                 <version>1.0.4</version>
             </dependency>
 
+           <!-- websocket-->
+            <dependency>
+                <groupId>com.example</groupId>
+                <artifactId>again-cloud-websocket</artifactId>
+                <version>${revision}</version>
+            </dependency>
         </dependencies>
     </dependencyManagement>
 

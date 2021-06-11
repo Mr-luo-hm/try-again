@@ -9,6 +9,9 @@
     <modelVersion>4.0.0</modelVersion>
     <packaging>pom</packaging>
 
+    <properties>
+      <parent-version>2.1.9.RELEASE</parent-version>
+    </properties>
 
     <modules>
         <module>again-cloud-eureka</module>
@@ -16,6 +19,7 @@
         <module>again-cloud-cache</module>
         <module>again-cloud-web</module>
         <module>again-cloud-dependencies</module>
+        <module>again-cloud-websocket</module>
     </modules>
 
     <parent>
