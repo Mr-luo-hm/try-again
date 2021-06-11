@@ -14,7 +14,6 @@
         <module>again-starters</module>
         <module>admin-api</module>
         <module>again-common-modules</module>
-        <module>again-cloud</module>
     </modules>
 
     <name>try-again</name>
